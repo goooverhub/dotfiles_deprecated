@@ -4,7 +4,7 @@
 * `dotfiles config --local status.showUntrackedFiles no`
 * `echo "alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'" >> $HOME/.bashrc`
 # Migrate to New Workspace
-* `alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
+* `alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'`
 * `echo ".dotfiles" >> .gitignore`
 * `git clnoe --bare https://github.com/shilinsias/dotfiles.git $HOME/.dotfiles`
 * `alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'`
